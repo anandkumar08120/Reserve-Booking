@@ -16,7 +16,7 @@ export const Register = () => {
   console.log(credentials);
   const handleClick = () => {
     axios
-      .post("http://localhost:8000/api/auth/register", credentials)
+      .post("https://booking-app-i4x9.onrender.com/api/auth/register", credentials)
       .then((data) => {
         alert("User Created!");
         navigate("/login");

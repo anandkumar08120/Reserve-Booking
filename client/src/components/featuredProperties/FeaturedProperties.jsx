@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch.js";
 const FeaturedProperties = () => {
   // limit is not working here &limit=4
   const { data, loading, error } = useFetch(
-    "http://localhost:8000/api/hotels?featured=true"
+    "https://booking-app-i4x9.onrender.com/api/hotels?featured=true"
   );
 
   return (

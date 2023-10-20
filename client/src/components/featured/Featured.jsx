@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch.js";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "http://localhost:8000/api/hotels/countByCity?cities=delhi,mumbai,lucknow"
+    "https://booking-app-i4x9.onrender.com/api/hotels/countByCity?cities=delhi,mumbai,lucknow"
   );
 
 
